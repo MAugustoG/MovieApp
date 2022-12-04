@@ -8,9 +8,10 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "prepare": "husky install",
+    "test": "vitest",
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
-    "check-lint": "eslint . --ext ts --ext tsx --ext js",
+    "check-lint": "eslint . --ext ts --ext tsx",
     "format": "prettier --write .",
     "test-all": "yarn check-format && yarn check-lint && yarn check-types"
   },
@@ -19,6 +20,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -30,10 +33,12 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.31.11",
+    "husky": "^8.0.0",
+    "jsdom": "^20.0.3",
     "prettier": "^2.8.0",
     "typescript": "*",
     "vite": "^3.2.3",
-    "husky": "^8.0.0"
+    "vitest": "^0.25.3"
   },
   "main": "index.js",
   "author": "Mateus Augusto Gomes <mataugustogomes@gmail.com>",

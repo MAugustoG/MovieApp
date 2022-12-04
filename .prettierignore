@@ -4,3 +4,4 @@ public
 
 vite-env.d.ts
 vite.config.ts
+.dist
