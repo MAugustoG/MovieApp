@@ -1,6 +1,6 @@
 // -----------------------------------------------------------------------------
 // 'INTERNAL' IMPORTS
 // -----------------------------------------------------------------------------
-import { RouterItem } from '../types/routes/router-item.types';
+import { RouterItem } from '../shared/types/routes/router-item.types';
 
 export const routes: RouterItem[] = [];

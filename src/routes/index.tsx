@@ -8,7 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 // -----------------------------------------------------------------------------
 import { routes } from './routes';
 import { MainLayout } from '../layouts/MainLayout';
-import { RouterItem } from '../types/routes/router-item.types';
+import { RouterItem } from '../shared/types/routes/router-item.types';
 
 export const Router = () => {
   const routers = routes.map(({ path, title, element }: RouterItem) => {

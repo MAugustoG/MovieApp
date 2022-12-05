@@ -12,7 +12,7 @@ import { ThemeProvider } from '@mui/material/styles';
 // 'INTERNAL' IMPORTS
 // -----------------------------------------------------------------------------
 import { Router } from './routes';
-import { theme } from './styles/global/theme';
+import { theme } from './shared/styles/global/theme';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
