@@ -1,9 +1,9 @@
 // -----------------------------------------------------------------------------
 //  'INTERNAL' IMPORT
 // -----------------------------------------------------------------------------
-import { axiosInstance } from '../../axios';
-import { API_KEY, BASE_URL } from '../../../../shared/constants';
-import { TopRatedMovie } from '../../../../shared/types/movies/top-rated-movie.types';
+import { axiosInstance } from '../../config/libs/axios';
+import { API_KEY, BASE_URL } from '../../shared/constants';
+import { TopRatedMovie } from '../../shared/types/movies/top-rated-movie.types';
 
 // -----------------------------------------------------------------------------
 //  TYPES

@@ -1,10 +1,10 @@
 // -----------------------------------------------------------------------------
 //  'INTERNAL' IMPORT
 // -----------------------------------------------------------------------------
-import { axiosInstance } from '../../axios';
-import { API_KEY, BASE_URL } from '../../../../shared/constants';
-import { Movie } from '../../../../shared/types/movies/common/movie.types';
-import { DetailedMovie } from '../../../../shared/types/movies/detailed-movie.types';
+import { axiosInstance } from '../../config/libs/axios';
+import { API_KEY, BASE_URL } from '../../shared/constants';
+import { Movie } from '../../shared/types/movies/common/movie.types';
+import { DetailedMovie } from '../../shared/types/movies/detailed-movie.types';
 
 // -----------------------------------------------------------------------------
 //  TYPES
