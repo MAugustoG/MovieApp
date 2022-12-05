@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
 // 'EXTERNAL' IMPORTS
 // -----------------------------------------------------------------------------
+import { faker } from '@faker-js/faker';
 import { it, vi, describe } from 'vitest';
 import { MemoryRouter } from 'react-router-dom';
 import { render, screen, fireEvent } from '@testing-library/react';
@@ -38,7 +39,7 @@ describe('Header Component', () => {
     );
 
     const input = screen.getByLabelText('search');
-    fireEvent.change(input, { target: { value: 'test' } });
+    fireEvent.change(input, { target: { value: faker.datatype.string() } });
     expect(mockedUsedNavigate).toHaveBeenCalled();
   });
 });
