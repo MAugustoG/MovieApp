@@ -13,7 +13,7 @@ I will help you to guide yourself in this project, so here are the following top
 
 I can explain in detail the purpose of this task, but this file is much more enlightening. Therefore, feel free to know the reason for the project.
 
-![Alt text](./description.png)
+![Screenshot](./description.png)
 
 ## [How to execute](#HowToExecute)
 
