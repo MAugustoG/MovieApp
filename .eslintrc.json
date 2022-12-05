@@ -23,5 +23,9 @@
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-function-return-type": "off"
   },
-  "settings": {}
+  "settings": {
+    "react": {
+      "version": "18.2.0"
+    }
+  }
 }
