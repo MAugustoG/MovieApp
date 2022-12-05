@@ -11,7 +11,6 @@ import { ToastContainer } from 'react-toastify';
 import { BrowserRouter } from 'react-router-dom';
 import { QueryClientProvider } from 'react-query';
 import { ThemeProvider } from '@mui/material/styles';
-import { ReactQueryDevtools } from 'react-query/devtools';
 
 // -----------------------------------------------------------------------------
 // 'INTERNAL' IMPORTS
@@ -24,7 +23,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <QueryClientProvider client={reactQueryClient}>
-        <ReactQueryDevtools />
         <BrowserRouter>
           <Router />
           <CssBaseline />
