@@ -48,7 +48,7 @@ describe('CastSection Component', () => {
     expect(screen.getByAltText(cast.name)).toBeInTheDocument();
   });
 
-  it('it should be possible to render the video (loading)', () => {
+  it('it should not be possible to render the video (loading)', () => {
     returnValue = loadingHookResponseData;
 
     render(<CastSection id={1} />);
