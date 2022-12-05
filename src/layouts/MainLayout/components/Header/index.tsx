@@ -11,8 +11,8 @@ import { Link, useNavigate } from 'react-router-dom';
 // -----------------------------------------------------------------------------
 // 'INTERNAL' IMPORTS
 // -----------------------------------------------------------------------------
-import Logo from '../../../assets/images/logo.svg';
-import { SearchInput } from '../../../shared/components/SearchInput';
+import Logo from '../../../../assets/images/logo.svg';
+import { SearchInput } from '../../../../shared/components/SearchInput';
 
 export const Header = () => {
   const navigate = useNavigate();

@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 // -----------------------------------------------------------------------------
 // 'INTERNAL' IMPORTS
 // -----------------------------------------------------------------------------
-import { Header } from '../components/Header';
+import { Header } from './components/Header';
 
 export const MainLayout = () => {
   return (
