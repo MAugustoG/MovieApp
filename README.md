@@ -5,14 +5,9 @@ Hey, How are you? 😉
 I will help you to guide yourself in this project, so here are the following topics:
 
 - [5Mins - Movie Application](#5mins---movie-application)
-  - [Introduction](#introduction)
   - [How to execute](#how-to-execute)
   - [Technologies](#technologies)
   - [About Me](#about-me)
-
-## <a name="Introduction">Introduction</a>
-
-![Screenshot](./description.png)
 
 ## <a name="HowToExecute">How to execute</a>
 
