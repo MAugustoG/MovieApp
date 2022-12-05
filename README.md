@@ -16,7 +16,7 @@ To run this project, perform the following steps:
 ```
 git clone https://github.com/MAugustoG/MovieApp.git
 cd MovieApp
-npm install
+yarn 
 ```
 
 After that, you have the following options:
@@ -24,20 +24,20 @@ After that, you have the following options:
 - Run tests
 
 ```
-npm run test
+yarn test
 ```
 
 - Run locally
 
 ```
-npm run dev
+yarn dev
 ```
 
 ## <a name="Technologies">Technologies</a>
 
 In this project, the leading technologies used are:
 
-- [React (Vite and Typescript)](https://vitejs.dev/) - Development
+- [React 18.2.0 (Vite and Typescript)](https://vitejs.dev/) - Development
 - [React Query](https://react-query-v3.tanstack.com/) - Fetch and Cache Data
 - [Material UI](https://mui.com/pt/material-ui/getting-started/overview/) - Component Library
 - [Testing Library](https://testing-library.com/) and [Vitest](https://vitest.dev/) - Tests
