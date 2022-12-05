@@ -15,7 +15,7 @@ To run this project, perform the following steps:
 
 ```
 git clone https://github.com/MAugustoG/MovieApp.git
-cd movieapp
+cd MovieApp
 npm install
 ```
 
