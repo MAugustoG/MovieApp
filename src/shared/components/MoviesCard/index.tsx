@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
 // 'EXTERNAL' IMPORTS
 // -----------------------------------------------------------------------------
+import Tooltip from '@mui/material/Tooltip';
 import CardMedia from '@mui/material/CardMedia';
 import CardActionArea from '@mui/material/CardActionArea';
 
@@ -16,7 +17,6 @@ import { ImageComponent } from '../ImageComponent';
 import { TIME_TO_PREFETCH_MOVIE } from '../../constants';
 import { TopRatedMovie } from '../../types/movies/top-rated-movie.types';
 import { usePrefetchMovieDetails } from '../../../services/hooks/usePrefetchMovieDetails';
-import { Tooltip } from '@mui/material';
 
 interface MoviesCardParams {
   movie: TopRatedMovie;

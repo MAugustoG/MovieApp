@@ -44,6 +44,7 @@ export const VideoSection = ({ id, title }: VideoSectionProps) => {
     <Stack spacing={2}>
       <Typography>{name}</Typography>
       <Frame
+        role={title}
         frameBorder='0'
         ref={videoFrame}
         title={`${title}-video`}
