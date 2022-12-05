@@ -17,13 +17,11 @@ type TestsReturnValue = Partial<UseQueryResult<RequestMovieVideosResponse>>;
 
 let returnValue: null | TestsReturnValue = null;
 
-const video = handleGenerateMockedVideo();
-
 const correctHookResponseData: TestsReturnValue = {
   isLoading: false,
   data: {
     id: 1,
-    results: [video],
+    results: [handleGenerateMockedVideo()],
   },
 };
 
