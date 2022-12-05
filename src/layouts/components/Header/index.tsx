@@ -39,7 +39,13 @@ export const Header = () => {
       variant='outlined'
       sx={{ padding: '1rem' }}
     >
-      <Toolbar>
+      <Toolbar
+        sx={{
+          display: 'flex',
+          alignItems: 'space',
+          justifyContent: 'space-between',
+        }}
+      >
         <Link to='/'>
           <Box
             src={Logo}
