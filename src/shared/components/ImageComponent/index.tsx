@@ -29,6 +29,7 @@ export const ImageComponent = ({ alt, path, ...rest }: ImageComponentProps) => {
         height: '100%',
         color: 'white',
         display: 'flex',
+        minHeight: '11.7rem',
         alignItems: 'center',
         justifyContent: 'center',
       }}

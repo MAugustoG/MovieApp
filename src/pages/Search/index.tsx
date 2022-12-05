@@ -7,8 +7,8 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 // -----------------------------------------------------------------------------
 // 'INTERNAL' IMPORTS
 // -----------------------------------------------------------------------------
-import { EmptySection } from '../../shared/components/EmptySection';
-import { ErrorSection } from '../../shared/components/ErrorSection';
+import { ErrorSection } from '../../shared/sections/ErrorSection';
+import { EmptySection } from '../../shared/sections/EmptySection';
 import { Movie } from '../../shared/types/movies/common/movie.types';
 import { useSearchMovie } from '../../services/hooks/useSearchMovie';
 import { InfiniteMovieList } from '../../shared/components/InfiniteMovieList';

@@ -22,7 +22,9 @@
   "rules": {
     "react/display-name": "off",
     "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/naming-convention": "off",
     "@typescript-eslint/no-floating-promises": "off",
+    "@typescript-eslint/restrict-plus-operands": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/restrict-template-expressions": "off"

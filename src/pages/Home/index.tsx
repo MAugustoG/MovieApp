@@ -7,8 +7,8 @@ import { useMemo } from 'react';
 // 'INTERNAL' IMPORTS
 // -----------------------------------------------------------------------------
 import { Loader } from '../../shared/components/Loader';
-import { EmptySection } from '../../shared/components/EmptySection';
-import { ErrorSection } from '../../shared/components/ErrorSection';
+import { ErrorSection } from '../../shared/sections/ErrorSection';
+import { EmptySection } from '../../shared/sections/EmptySection';
 import { Movie } from '../../shared/types/movies/common/movie.types';
 import { useTopRatedMovies } from '../../services/hooks/useTopRatedMovies';
 import { InfiniteMovieList } from '../../shared/components/InfiniteMovieList';
