@@ -4,4 +4,14 @@ public
 
 vite-env.d.ts
 vite.config.ts
-.dist
+dist
+
+tsconfig.json
+tsconfig.node.json
+
+package.json
+index.html
+
+.vscode/*
+.eslintrc.json
+.prettierrc
