@@ -1,10 +1,20 @@
-import { Movie } from './index';
+// -----------------------------------------------------------------------------
+// 'EXTERNAL' IMPORTS
+// -----------------------------------------------------------------------------
 import { it, vi, describe } from 'vitest';
 import { UseQueryResult } from 'react-query';
 import { MemoryRouter } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
+
+// -----------------------------------------------------------------------------
+// 'INTERNAL' IMPORTS
+// -----------------------------------------------------------------------------
+import { Movie } from './index';
 import { DetailedMovie } from '../../shared/types/movies/detailed-movie.types';
 
+// -----------------------------------------------------------------------------
+// TYPES AND VARIABLES
+// -----------------------------------------------------------------------------
 type TestsReturnValue = Partial<UseQueryResult<DetailedMovie>>;
 
 let returnValue: null | TestsReturnValue = null;

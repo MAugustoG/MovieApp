@@ -1,11 +1,21 @@
-import { Home } from './index';
+// -----------------------------------------------------------------------------
+// 'EXTERNAL' IMPORTS
+// -----------------------------------------------------------------------------
 import { it, vi, describe } from 'vitest';
 import { MemoryRouter } from 'react-router-dom';
 import { UseInfiniteQueryResult } from 'react-query';
 import { render, screen } from '@testing-library/react';
+
+// -----------------------------------------------------------------------------
+// 'INTERNAL' IMPORTS
+// -----------------------------------------------------------------------------
+import { Home } from './index';
 import { handleGenerateMockedMovie } from '../../shared/utils/tests/handleGenerateMovie';
 import { RequestTopRatedMoviesResponse } from '../../services/api/requestTopRatedMovies';
 
+// -----------------------------------------------------------------------------
+// TYPES AND VARIABLES
+// -----------------------------------------------------------------------------
 type TestsReturnValue = Partial<
   UseInfiniteQueryResult<RequestTopRatedMoviesResponse>
 >;

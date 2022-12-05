@@ -1,11 +1,21 @@
-import { Search } from './index';
+// -----------------------------------------------------------------------------
+// 'EXTERNAL' IMPORTS
+// -----------------------------------------------------------------------------
 import { it, vi, describe } from 'vitest';
 import { MemoryRouter } from 'react-router-dom';
 import { UseInfiniteQueryResult } from 'react-query';
 import { render, screen } from '@testing-library/react';
+
+// -----------------------------------------------------------------------------
+// 'EXTERNAL' IMPORTS
+// -----------------------------------------------------------------------------
+import { Search } from './index';
 import { RequestSearchMovieResponse } from '../../services/api/requestSearchMovie';
 import { handleGenerateMockedMovie } from '../../shared/utils/tests/handleGenerateMovie';
 
+// -----------------------------------------------------------------------------
+// TYPES AND VARIABLES
+// -----------------------------------------------------------------------------
 type TestsReturnValue = Partial<
   UseInfiniteQueryResult<RequestSearchMovieResponse>
 >;
